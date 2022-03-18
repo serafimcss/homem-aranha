@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+  /* The image used */
+  background-image: url("./homem-aranha-alt.png");
+  
+  /* Full height */
+  height: 100%;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  margin-left: 10px;
+  padding-top: 200px;
+  animation: logoAnimado;
+}
+
+img {
+  width: 700px;
+  margin-left: 300px;
+}
+
+.data {
+  color: azure; 
+  font-size: 20px;
+  text-align: center;
+  margin-top: -30px;
+  animation: dataAnimado;
+}
+
+.sinopse {
+  width: 90%;
+  margin-left: 60px;
+  color: #f5f5f5;
+  font-size: 14px;
+  padding-bottom: 50px;
+  animation: sinopseAnimado;
+} 
+
+@keyframes logoAnimado {
+  
+}
+
+@keyframes dataAnimado {
+  
+}
+
+@keyframes sinopseAnimado {
+  
+}
